@@ -20,7 +20,7 @@ batchSize = 9999
 #amount given to censusgeocode at a time
 
 def batchRes(path):
-    #program starts by passing ogpath to this function as path
+    #passes ogpath to this function as path
     res = cg.addressbatch(path)
     #using function created below to send csv file input to census geocode and recieve output
     #uses ogpath as argument
